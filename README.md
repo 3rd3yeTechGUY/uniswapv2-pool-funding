@@ -10,4 +10,4 @@ It is required to approve the contract for used ERC20 tokens beforehand.
 | Network | Address |
 | :---: | :---: |
 | Polygon Mumbai | `0x6b85961B8c9977aDBf3D3E7f8057C69783B5aF38` |
-| Polygon | `not yet deployed` |
+| Polygon | `0x000000000000not-yet-deployed000000000000` |
