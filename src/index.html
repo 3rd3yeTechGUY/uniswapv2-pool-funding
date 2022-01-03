@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <link rel="shortcut icon" href="favicon-terminal.ico" type="image/x-icon">
+    <title>NGT Terminal</title>
+</head>
+<body>
+    <div class="info-box">Connecting...</div>
+        <div>------------------------</div>
+    <div>
+        <div>Your Address:</div>
+        <div class="address">Reading...</div>
+        <div>------------------------</div>
+    </div>
+    <div>
+        <div>Eth Balance:</div>
+        <div class="balance-eth">Reading...</div>
+        <div>------------------------</div>
+    </div>
+    <div>
+        <div>TKN Balance:</div>
+        <div class="balance-tkn">Reading...</div>
+        <div>------------------------</div>
+    </div>
+    <div>
+        <div>Fund Pool:</div>
+        <label for="amount0">ETH (amount):</label>
+        <input type="text" id="amount0" name="amount0"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+        <br>
+        <label for="amount1">TKN (amount):</label>
+        <input type="text" id="amount1" name="amount1">
+        <button class="approve">approve --></button>
+        <button class="send">send --></button>
+        <div>------------------------</div>
+    <div>
+</body>
+</html>
